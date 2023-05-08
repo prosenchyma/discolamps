@@ -14,7 +14,6 @@ def on_button_pressed_a():
 
 def on_button_pressed_b():
     strip.clear()
-    strip.show()
         
 input.on_button_pressed(Button.A, on_button_pressed_a)
 input.on_button_pressed(Button.B, on_button_pressed_b)
